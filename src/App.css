@@ -1,3 +1,8 @@
+@font-face {
+  font-family: imported;
+  src: url(./assets/Fonts/Bento-2OXaW.otf);
+}
+
 .App {
   text-align: center;
 }
