@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './sections/Banner';
+import Footer from './sections/Footer';
 import Receipies from './sections/Receipies';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="w-[1440px] m-auto">
    <Banner></Banner>
    <Receipies></Receipies>
+   <Footer></Footer>
 
     </div>
   );
