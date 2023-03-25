@@ -5,7 +5,7 @@ const RecipeCard = ({ recipe, setRecipeSteps }) => {
   return (
     <div className="py-10">
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
-        <div class="h-full w-full ">
+        <div class="h-96 w-full ">
           <img
             class="h-full w-full  object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
             src={image}
