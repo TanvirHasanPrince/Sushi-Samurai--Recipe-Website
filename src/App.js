@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Banner from './sections/Banner';
 
 function App() {
   return (
-    <div className="App">
-   <p className="text-red-600">Tailwind working</p>
+    <div className="w-[1440px] m-auto">
+   <Banner></Banner>
     </div>
   );
 }
