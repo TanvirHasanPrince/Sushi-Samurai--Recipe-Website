@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Banner = () => {
  return (
    <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 p-10 ">
-     <div className='flex items-center text-5xl lg:text-9xl justify-center font-[imported]'>
+     <div className='flex items-center text-5xl lg:text-7xl justify-center font-[imported]'>
        <Typewriter
          options={{
            strings: [
