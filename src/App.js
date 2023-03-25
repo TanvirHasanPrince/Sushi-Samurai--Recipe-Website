@@ -6,7 +6,7 @@ import Receipies from './sections/Receipies';
 
 function App() {
   return (
-    <div className="w-[1440px] m-auto">
+    <div className="lg:w-3/4 md:w-full w-full m-auto">
    <Banner></Banner>
    <Receipies></Receipies>
    <Footer></Footer>
