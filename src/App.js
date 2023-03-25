@@ -9,7 +9,7 @@ function App() {
     <div className="w-[1440px] m-auto">
    <Banner></Banner>
    <Receipies></Receipies>
-   <RecipeModal></RecipeModal>
+
     </div>
   );
 }

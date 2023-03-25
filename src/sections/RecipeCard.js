@@ -1,7 +1,7 @@
 import React from 'react';
 
-const RecipeCard = ({ recipe }) => {
- const { name,image, introduction } = recipe;
+const RecipeCard = ({ recipe, setRecipeSteps }) => {
+  const { name, image, introduction } = recipe;
   return (
     <div className="py-10">
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-lg">
@@ -18,9 +18,14 @@ const RecipeCard = ({ recipe }) => {
           <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-ellipsis">
             {introduction}
           </p>
-          <button class="rounded-full bg-red-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+
+          <label
+            onClick={() => setRecipeSteps(recipe)}
+            htmlFor="recipe-modal"
+            className="btn rounded-full bg-red-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+          >
             See More
-          </button>
+          </label>
         </div>
       </div>
     </div>
